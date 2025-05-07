@@ -12,5 +12,4 @@ public class Participant
     public string ExperienceProgrammation { get; set; } 
     public string TechnoMaitrisee { get; set; }
     public string Objectif { get; set; }
-    public DateTime DateInscription { get; set; }
 }

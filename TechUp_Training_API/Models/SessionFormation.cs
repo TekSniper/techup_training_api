@@ -7,5 +7,5 @@ public class SessionFormation
     public string Description { get; set; }
     public DateTime DateDebut { get; set; }
     public DateTime DateFin { get; set; }
-    public int CapaciteMax { get; set; }
+    public short CapaciteMax { get; set; }
 }

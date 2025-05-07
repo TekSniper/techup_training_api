@@ -1,3 +1,11 @@
+global using Microsoft.Data.SqlClient;
+global using MySql.Data.MySqlClient;
+global using System.Text.Json;
+global using System.Text.Json.Serialization;
+global using Dapper;
+global using TechUp_Training_API.Models;
+global using TechUp_Training_API.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
